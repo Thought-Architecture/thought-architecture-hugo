@@ -1,0 +1,8 @@
+name = "hello-friend-ng"
+license = "MIT"
+licenselink = "https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE"
+description = "A simple theme for Hugo"
+homepage = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"
+tags = ["blog", "minimal", "responsive"]
+features = ["dark mode", "syntax highlighting"]
+min_version = "0.41.0"
