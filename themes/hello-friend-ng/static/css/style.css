@@ -1,0 +1,42 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #f7f3e9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #efe7d8;
+  padding: 1rem;
+  border-bottom: 2px solid #3399ff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3399ff;
+}
+
+main {
+  padding: 3rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #efe7d8;
+  margin-top: 3rem;
+}
