@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }} — {{ .Site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "about/" | relURL }}">About</a>
+      <a href="{{ "methodology/" | relURL }}">Methodology</a>
+      <a href="{{ "services/" | relURL }}">Services</a>
+      <a href="{{ "identity/" | relURL }}">Identity</a>
+      <a href="{{ "contact/" | relURL }}">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer>
+    <p>© Thought Architecture</p>
+  </footer>
+</body>
+</html>
