@@ -8,13 +8,19 @@
 <body>
   <header>
     <nav>
-      <a href="{{ "/" | relURL }}">Home</a>
-      <a href="{{ "about/" | relURL }}">About</a>
-      <a href="{{ "methodology/" | relURL }}">Methodology</a>
-      <a href="{{ "services/" | relURL }}">Services</a>
-      <a href="{{ "identity/" | relURL }}">Identity</a>
-      <a href="{{ "contact/" | relURL }}">Contact</a>
-    </nav>
+  <a href="{{ "/" | relLangURL }}">Home</a>
+  <a href="{{ "about/" | relLangURL }}">About</a>
+  <a href="{{ "methodology/" | relLangURL }}">Methodology</a>
+  <a href="{{ "services/" | relLangURL }}">Services</a>
+  <a href="{{ "identity/" | relLangURL }}">Identity</a>
+  <a href="{{ "contact/" | relLangURL }}">Contact</a>
+
+  <!-- Language Switcher -->
+  <span style="margin-left:2rem;">
+    <a href="{{ .Site.Home.RelPermalink | relLangURL }}" hreflang="en">EN</a> |
+    <a href="{{ .Site.Home.RelPermalink | relLangURL }}" hreflang="de">DE</a>
+  </span>
+     </nav>
   </header>
 
   <main>
