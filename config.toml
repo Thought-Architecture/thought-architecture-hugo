@@ -1,0 +1,7 @@
+baseURL = "https://thought-architecture.github.io/thought-architecture-hugo/"
+languageCode = "en-us"
+title = "Thought Architecture"
+theme = "hello-friend-ng"
+
+[params]
+  description = "Hybrid ecosystems for human–technology integration."
